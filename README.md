@@ -102,6 +102,7 @@ When doing a permutation importance test, it was found that the most impactful f
 <br />
 <br />
 Partial dependence plots showed that:
+
  - The sex of the patient, observing that being male increases the likelihood of a patient has heart disease according to the model
  - The resting blood pressure of the patient, observing that high pressure increases the likelihood of a patient having heart disease according to the model
  - The serum cholestoral levels of the patient, observing that higher serum cholestoral levels increase the likelihood of a patient having heart disease according to the model
@@ -112,6 +113,7 @@ Partial dependence plots showed that:
 <br />
 <br />
 A summary plot using SHAP values concluded that the contributions of the features to the models predictions include (Positive impacts mean increases the likelihood of the model heart disease, and negative impacts decrease the likelihood of the model predicting heart disease):
+
  - Large positive impact if a patient has typical angina, and a large negative impact if a patient does not
  - Negative impact if a patient has no coloured vessels in a flouroscopy, and a large positive impact if a patient has more than 0 coloured vessels show up in a flouroscopy
  - Large negative impact if a patient had a medium to high max heart rate, and a large positive impact if a patient had a low max heart rate
