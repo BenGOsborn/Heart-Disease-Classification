@@ -111,7 +111,6 @@ Partial dependence plots showed that:
  - Whether a patient has typical angina, observing that if a patient has typical angina they are more likely to have heart disease according to the model
  - The number of vessels that show in a flouroscopy, observing that the more coloured vessels the higher the patients chances of having heart disease according to the model
 <br />
-<br />
 A summary plot using SHAP values concluded that the contributions of the features to the models predictions include (Positive impacts mean increases the likelihood of the model heart disease, and negative impacts decrease the likelihood of the model predicting heart disease):
 
  - Large positive impact if a patient has typical angina, and a large negative impact if a patient does not
