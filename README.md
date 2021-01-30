@@ -102,7 +102,6 @@ When doing a permutation importance test, it was found that the most impactful f
 <br />
 <br />
 Partial dependence plots showed that:
-
  - The sex of the patient, observing that being male increases the likelihood of a patient has heart disease according to the model
  - The resting blood pressure of the patient, observing that high pressure increases the likelihood of a patient having heart disease according to the model
  - The serum cholestoral levels of the patient, observing that higher serum cholestoral levels increase the likelihood of a patient having heart disease according to the model
