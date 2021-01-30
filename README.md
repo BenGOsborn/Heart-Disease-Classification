@@ -93,14 +93,16 @@ normal_st_waves, st_wave_abnormality
 
 #### Model building and training:
 The model used is a random forrest classifier with 100 estimators. The model was cross validated using K-Fold cross validation over 6 folds. The average accuracy for the models was roughly 80%, and the accuracy for the best model on the validation set is roughly 84%. The model was trained on 246 training examples and was validation on 50 validation examples.
+
 <br />
-<br />
+
 The model has a 79% accuracy when classifying if a patient does not have heart disease, and an 88% accuracy when classifying if a patient does have heart disease, leading to more false positives than vice versa, which is a positive when trying to predict such a disease.
 
 #### Interpreting the model:
 When doing a permutation importance test, it was found that the most impactful features to the model included hether the patient experienced typical angina, followed by the patients maximum heart rate, and if they had no vessels show up in a flouroscopy. Other features deemed important by the model include the patients resting blood pressure, whether they have a reversable defect and their ST depression levels while they are excercising after they have rested. It was found that the features that had a negative impact on the model include if the patient had non anginal pain, and if the patient had left ventricle hypertrophy. 
+
 <br />
-<br />
+
 Partial dependence plots showed that:
  - The sex of the patient, observing that being male increases the likelihood of a patient has heart disease according to the model
  - The resting blood pressure of the patient, observing that high pressure increases the likelihood of a patient having heart disease according to the model
@@ -109,7 +111,9 @@ Partial dependence plots showed that:
  - A patients ST depression excercising after they have rested, observing that the higher the ST depression excercising after they have rested increases the chance of a patient having heart disease according to the model
  - Whether a patient has typical angina, observing that if a patient has typical angina they are more likely to have heart disease according to the model
  - The number of vessels that show in a flouroscopy, observing that the more coloured vessels the higher the patients chances of having heart disease according to the model
+
 <br />
+
 A summary plot using SHAP values concluded that the contributions of the features to the models predictions include (Positive impacts mean increases the likelihood of the model heart disease, and negative impacts decrease the likelihood of the model predicting heart disease):
 
  - Large positive impact if a patient has typical angina, and a large negative impact if a patient does not
@@ -122,3 +126,11 @@ A summary plot using SHAP values concluded that the contributions of the feature
  - Positive impact if the patient has a reversable defect, and a negative impact if the npatient does not have a reversable defect
  - Positive impact if the patient has experienced excercise induced angina, and a negative impact if a patient has not experienced excercise induced angina
  - Positive impact if a patient is male, and a negative impact if a patient is female
+
+<br />
+
+A summary plot of how the model interprets the features from the validation data
+
+<br />
+
+![Summary plot](https://imgur.com/a/3qiXHtp)
