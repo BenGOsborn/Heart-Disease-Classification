@@ -133,4 +133,4 @@ A summary plot of how the model interprets the features from the validation data
 
 <br />
 
-<img alt="Summary plot of how the model interprets the features from the validation data" src="https://imgur.com/a/3qiXHtp" />
+<img alt="Summary plot of how the model interprets the features from the validation data" src="https://i.imgur.com/tcITc4x_d.webp?maxwidth=760&fidelity=grand" />
