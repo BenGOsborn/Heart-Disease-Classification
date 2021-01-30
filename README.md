@@ -129,7 +129,7 @@ A summary plot using SHAP values concluded that the contributions of the feature
 
 <br />
 
-A summary plot of how the model interprets the features from the validation data can be found below:
+The summary plot:
 
 <br />
 
